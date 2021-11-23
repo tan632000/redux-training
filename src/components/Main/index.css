@@ -1,0 +1,110 @@
+.main {
+  padding: 20px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  font-family: 'Times New Roman', Times, serif;
+}
+.title {
+  font-size: 40px;
+  text-align: center;
+  padding: 10px;
+}
+.body {
+  padding: 5px;
+  text-align: center;
+}
+.content {
+  display: inline-block;
+  margin-bottom: 0;
+  vertical-align: middle;
+}
+
+input {
+  display: inline-block;
+  width: auto;
+  height: 34px;
+  padding: 6px 12px;
+  margin: 5px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  vertical-align: middle;
+  transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+.btn {
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  margin-left: 10px;
+}
+
+
+.btn-success {
+  color: #fff;
+  background-color: #5cb85c;
+  border-color: #4cae4c;
+}
+
+.btn-reset {
+  color: #fff;
+  background-color: #d9534f;
+  border-color: #d43f3a;
+}
+.delete-button {
+  float: right;
+  width: 5px;
+  margin-top: -60px;
+  padding-left: 5px;
+  cursor: pointer;
+}
+.edit-button {
+  float: right;
+  width: 5px;
+  margin-top: -40px;
+  padding-left: 5px;
+  cursor: pointer;
+}
+
+ul {
+  padding-left: 0;
+  margin-bottom: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  max-width: 1280px;
+  justify-content: center;
+}
+li {
+  list-style-type: none;
+  position: relative;
+  display: block;
+  padding: 10px 15px;
+  margin-bottom: -1px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  width: 28%;
+  margin: 20px;
+}

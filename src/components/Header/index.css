@@ -1,0 +1,23 @@
+.header {
+    background-color: #a4d3c3;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2rem;
+    align-items: center;
+}
+
+.header__title {
+    margin: 0;
+    padding: 1rem;
+    color: white;
+}
+
+.header__button {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+}
+
+a {
+    text-decoration: none;
+}
